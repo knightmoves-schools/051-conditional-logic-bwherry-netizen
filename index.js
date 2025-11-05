@@ -1,11 +1,12 @@
 function validateAge (oldEnough){
-  oldEnough = true;
+  oldEnough = false;
 }
 
 if (oldEnough) {
   document.getElementById("result").innerHTML = "oldEnough";
 }
 
-if (oldEnough) = false {
+if (oldEnough = false) {
     document.getElementById("result").innerHTML = "Undefined";
 }
+
